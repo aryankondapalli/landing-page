@@ -161,5 +161,48 @@ a, .hero-content-subtext{
     color: #1F2937;
 }
 
+.call-to-action-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.call-to-action{
+    background-color: #3882f6;
+    border-radius: 8px;
+    width: 800px;
+    height: 100px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.call-to-action-header{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.call-to-action-subtext{
+    font-size: 16px;
+    color: #e5e7eb;
+}
+
+.call-to-action-button{
+    align-self: center;
+    font-weight: bold;
+    border-color: #f9faf8;
+    color: #f9faf8;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    padding: 4px 20px;
+    border-radius: 8px;
+    border: 2px solid;
+}
+
+
 
 
